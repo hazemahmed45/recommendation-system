@@ -1,0 +1,8 @@
+xgboost
+Flask==1.1.2
+numpy
+pandas
+pycountry==20.7.3
+scikit-learn
+scipy
+Flask-Cors

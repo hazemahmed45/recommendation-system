@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Side Face Recognition using Mirrored Face Process</title>
+  <link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+<body>
+
+  <div class="col">
+    <h1>Side Face Recognition using Mirrored Face Process</h1>
+    <!-- <BUTTON id="demo" onclick="myFunction()">add user</BUTTON> -->
+    <!-- <BUTTON id="video" onclick="openvid()">open video</BUTTON> -->
+
+	<!-- <h2>Upload a car image</h2> --> 
+
+    <form class="btn" action="" method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+
+    <!-- <h2>Results</h2>
+    <h3>Image</h3>
+    <img src={{imagesource}}>
+     <h1>{{verfied}}</h1>
+    <h1>{{name}} </h1> -->
+    <h2>Results</h2>
+    <h3>Image</h3>
+    <h1>Is Verified : {{verfied}}</h1>
+   <h1>Name : {{name}} </h1>
+
+    <table align="center">
+      <tr>
+
+        <th>
+          <div>
+            <h3>Predicted Entity</h3>
+          </div>
+        </th>
+        <th>
+          <div>
+            <h3>Given Image</h3>
+          </div>
+        </th>
+      </tr>
+      <tr>
+
+        <td>
+          <div>
+          
+            <img src={{imagesource}}>
+          </div>
+        </td>
+        <td>
+          <div>
+  
+            <img src={{imagesource1}}>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+<!-- <script>
+ function myFunction(form) {
+  window.open('add.html','_self');
+
+}
+function openvid(form) {
+  window.open('video.html','_self');
+
+}
+</script> -->
+</body>
+</html>
